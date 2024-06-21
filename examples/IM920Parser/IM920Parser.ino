@@ -1,7 +1,5 @@
 #include "IM920Parser.h"
 
-IM920Parser IM920sL;
-
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
