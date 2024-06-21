@@ -1,0 +1,44 @@
+##########################################
+# Syntax Coloring Map For IM920 Parser
+##########################################
+##########################################
+# Datatypes (KEYWORD1)
+##########################################
+
+  IM920Parser    KEYWORD1    IM920Parser
+
+##########################################
+#  Methods and Functions (KEYWORD2)
+##########################################
+
+  process	KEYWORD2
+  getPacketData	KEYWORD2
+  getSenderID    KEYWORD2
+  getRssi    KEYWORD2
+
+  setCommandBroadcast    KEYWORD2
+  setCommandBroadcastFix    KEYWORD2
+  setCommandUnicast    KEYWORD2
+  setCommandSendback    KEYWORD2
+  setCommandDelegate    KEYWORD2
+
+  format_command    KEYWORD2
+  generate_command    KEYWORD2
+ 
+##########################################
+#  Instances (KEYWORD2)
+##########################################
+
+
+##########################################
+  Constants (LITERAL1)
+##########################################
+
+  num_command	LITERAL1
+  num_header	LITERAL1
+  num_node_id	LITERAL1
+  num_rssi	LITERAL1
+
+  offset_byte_header	LITERAL1
+  max_byte_data	LITERAL1
+  max_len_command	LITERAL1
