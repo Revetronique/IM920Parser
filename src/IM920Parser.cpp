@@ -117,6 +117,7 @@ void IM920Parser::generate_command(const char* cmd, uint8_t* data, size_t len, b
       msg[2 * i + 1] = programming::helper::convertIntToHexChar(data[i] & 0x0F);
     }
   }
+  msg[len_msg - 1] = '\0';
 
   // create command message
   if(is_uni){ // unicast
